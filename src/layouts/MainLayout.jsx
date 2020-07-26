@@ -31,7 +31,7 @@ const MainLayout = ({ title, children }) => (
     <Head>
       <title>
         {title}
-        &nbsp;| Wills Ready - Most Convenient Estate Planning
+        &nbsp;| Company Name and description
       </title>
       <link rel="icon" href="/favicon.ico" />
     </Head>

@@ -58,7 +58,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${({ theme }) => theme.fonts.default};
+    font-family: ${({ theme }) => theme.fonts.fontFamily.default};
     display: block;
     font-weight: 700;
     margin: 1em 0;

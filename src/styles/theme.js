@@ -1,16 +1,28 @@
+const palette = {
+  wildWillow: '#3299D9',
+  lima: '#66D927',
+  black: '#000000',
+  alabaster: '#FCFCFC',
+  valencia: '#D94848',
+  california: '#F29F05',
+};
+
+const colors = {
+  palette,
+  brand: palette.wildWillow,
+  black: palette.black,
+  white: palette.alabaster,
+  success: palette.lima,
+  danger: palette.valencia,
+  warning: palette.california,
+};
+
 const theme = {
-  colors: {
-    wildWillow: '#ABBF6A',
-    alabaster: '#FCFCFC',
-    silver: '#BFBFBF',
-    silverChalice: '#A5A5A5',
-    doveGray: '#646464',
-    mineShaft: '#3C3C3C',
-    black: '#000000',
-    white: '#ffffff',
-  },
+  colors,
   fonts: {
-    default: '"Roboto", sans-serif',
+    fontFamily: {
+      default: '"Roboto", sans-serif',
+    },
   },
   transitionSpeed: {
     fast: '150ms',
