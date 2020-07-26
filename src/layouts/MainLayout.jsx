@@ -21,7 +21,7 @@ const MainLayoutWrapper = styled.div`
   overflow-x: hidden;
   overflow-y: auto;
 
-  ${media.phone`
+  ${media.desktop`
     grid-template-rows: auto 1fr auto;
   `}
 `;

@@ -30,9 +30,9 @@ const theme = {
     slow: '450ms',
   },
   mediaBreakpoints: {
-    desktop: 1170,
-    tablet: 992,
-    phone: 768,
+    ultraWideScreen: 1170,
+    desktop: 992,
+    tablet: 768,
   },
 };
 

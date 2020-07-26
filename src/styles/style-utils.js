@@ -6,13 +6,13 @@ const { mediaBreakpoints } = theme;
 
 const media = Object.keys(mediaBreakpoints).reduce((accumulator, label) => {
   accumulator[label] = (...args) => css`
-    @media (max-width: ${mediaBreakpoints[label] - 1}px) {
+    @media (min-width: ${mediaBreakpoints[label]}px) {
       ${css(...args)};
     }
   `;
 
-  accumulator[label].up = (...args) => css`
-    @media (min-width: ${mediaBreakpoints[label]}px) {
+  accumulator[label].down = (...args) => css`
+    @media (max-width: ${mediaBreakpoints[label] - 1}px) {
       ${css(...args)};
     }
   `;
