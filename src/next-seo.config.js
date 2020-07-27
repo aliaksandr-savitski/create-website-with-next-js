@@ -1,8 +1,8 @@
 import CONFIG from '@config';
 import ogImage from '@assets/images/opengraph-placeholder-1200x630.png';
 
-const TITLE = 'Wills Ready Estate Planning';
-const DESCRIPTION = 'Warner Jones helps clients in Nashville and Middle Tennessee develop estate plans.';
+const TITLE = 'Company Name';
+const DESCRIPTION = 'Company SEO description text';
 
 export default {
   title: TITLE,
