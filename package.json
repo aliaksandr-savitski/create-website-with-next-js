@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@kentico/kontent-delivery": "9.1.1",
     "babel-plugin-styled-components": "1.10.7",
     "next": "9.4.4",
     "next-seo": "4.7.3",
@@ -15,6 +16,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-ga": "3.1.2",
+    "rxjs": "6.6.0",
     "styled-components": "5.1.1",
     "styled-system": "5.1.5"
   },

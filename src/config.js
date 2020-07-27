@@ -2,9 +2,16 @@ const config = {
   self: {
     url: 'https://visitmyhome.co.uk',
   },
+  content: {
+    kentico: {
+      deliveryAPI: {
+        projectId: process.env.KENTICO_PROJECT_ID,
+      },
+    },
+  },
   analytics: {
     google: {
-      trackingId: 'UA-123456789-1',
+      trackingId: process.env.GOOGLE_ANALYTICS_ID,
     },
   },
 };

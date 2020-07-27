@@ -9,6 +9,7 @@
       "root": ["./src"],
       "alias": {
         "@assets": "./src/assets",
+        "@clients": "./src/clients",
         "@components": "./src/components",
         "@constants": "./src/constants",
         "@hooks": "./src/hooks",
