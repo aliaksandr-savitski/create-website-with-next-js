@@ -22,7 +22,7 @@ const MainLayoutWrapper = styled.div`
   overflow-y: auto;
 
   ${media.desktop`
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto;
   `}
 `;
 
