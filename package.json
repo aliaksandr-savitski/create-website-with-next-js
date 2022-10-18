@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@kentico/kontent-delivery": "9.1.1",
+    "@kentico/kontent-delivery": "11.13.0",
     "babel-plugin-styled-components": "1.10.7",
     "next": "9.4.4",
     "next-seo": "4.7.3",
